@@ -3,4 +3,6 @@ opencv-python-headless==4.7.0.72
 numpy<2
 ultralytics==8.0.197
 streamlit==1.35.0
+torch==2.1.0
+
 
