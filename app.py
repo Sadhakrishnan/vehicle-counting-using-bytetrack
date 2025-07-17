@@ -3,6 +3,9 @@ import os
 import uuid
 from vehicle_tracking import run_vehicle_tracking
 
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("outputs", exist_ok=True)
+
 st.set_page_config(page_title="Vehicle Tracker", layout="wide")
 st.title("🚦 Vehicle Tracking and Counting App")
 
