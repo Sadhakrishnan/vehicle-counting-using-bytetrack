@@ -1,5 +1,6 @@
-streamlit
-ultralytics
-opencv-python-headless==4.8.0.76
-numpy
 lap>=0.5.12
+opencv-python-headless==4.7.0.72
+numpy<2
+ultralytics==8.0.197
+streamlit==1.35.0
+
